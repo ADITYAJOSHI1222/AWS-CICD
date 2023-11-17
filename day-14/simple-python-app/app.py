@@ -7,5 +7,5 @@ def hello():
     return 'Hello, My name is aditya. THis is Final Deploy'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5000)
 
